@@ -1,9 +1,10 @@
 import React from "react";
 import "./MySkills.css";
+import image1 from "../../../public/images/ReactIcon-removebg-preview.png";
 const MySkills = () => {
   const skills = [
     {
-      image: "../../../public/images/ReactIcon-removebg-preview.png",
+      image: image1,
       Skill: "React Native",
       Skilldes:
         "React Native is a framework for building mobile applications using JavaScript and React. It allows developers to create cross-platform apps with a single codebase, offering a native-like experience by rendering UI components using native APIs.",

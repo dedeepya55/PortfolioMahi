@@ -301,7 +301,7 @@
     }
   
     .image-section .profile-image {
-      width: 250px;
+      display:none;
     }
   
     .main_header {

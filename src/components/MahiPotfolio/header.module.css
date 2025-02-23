@@ -1,0 +1,141 @@
+body {
+  background-color: #1F1C1C;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  text-align: center;
+  background-color: #1F1C1C;
+  padding: 0;
+  height: 100%;
+}
+
+.header {
+  height: 90px;
+  width: 100%;
+  background-color: #323030;
+  /* border-radius: 10px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.firstheadersub {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid red; */
+  align-items: center;
+}
+.firstheadersub:nth-child(1){
+  padding-right: 350px;
+  /* border:2px solid red; */
+}
+@media (max-width:768px) {
+  .firstheadersub:nth-child(1){
+    padding-right: 60px;
+  }
+}
+.headerMahi{
+  font-size: 30px;
+  color:#08D665;
+  font-weight: bold;
+}
+
+.listelements {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  /* border: 1px solid red; */
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  font-size: 20px;
+}
+
+.listelements li hr {
+  width: 0%;
+  transition: width 0.2s ease-in;
+  background-color: #66FCF1;
+  border: none;
+}
+
+.listelements li:hover {
+  cursor: pointer;
+}
+
+.listelements li:hover hr {
+
+  width: 100%;
+  background-color: #66FCF1;
+  border: none;
+  height: 2px;
+}
+
+.list2elements {
+  width: 200px;
+  position: fixed;
+  top: 90px;
+  right: 20px;
+  background-color: #1b1b1b;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  list-style-type: none;
+  z-index: 99999;
+  display: none;
+}
+
+.list2elements li {
+  padding: 10px;
+  border-bottom: 1px solid gray;
+  cursor: pointer;
+}
+
+.list2elements li:last-child {
+  border-bottom: none;
+}
+
+.list2elements li:hover {
+  color: #18ae85;
+}
+
+.iconlist {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #333;
+}
+
+.second {
+  width: 50px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .second {
+    display: flex !important;
+    position: absolute;
+    right: 20px;
+    z-index: 99999;
+  }
+  .firstheadersub .listelements {
+    display: none;
+  }
+  .list2elements {
+    display: block;
+  }
+}

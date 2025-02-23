@@ -1,0 +1,118 @@
+/* Certificates Section */
+.MainContact {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .certificate-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: black;
+  }
+  
+  /* Heading */
+  .certificate-heading {
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 30px;
+  }
+  @media (max-width:768px) {
+    .certificate-heading{
+      font-size: 35px;
+    }
+  }
+  @media (max-width:425px) {
+    .certificate-heading{
+      font-size: 28px;
+    }
+  }
+  
+  .certificate-heading span {
+    color: #08D665; /* Green color */
+  }
+  
+  /* Certificate Container */
+  .certificate-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  /* Certificate Card */
+  .certificate-card {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* border: 1px solid rgb(201, 201, 201)*/
+    width: 350px;
+    height: 400px;
+    background: black;
+    box-shadow: rgba(129, 128, 128, 0.15) 0px 5px 15px 0px;
+    /* padding: 20px; */
+    margin: 10px;
+  
+  }
+  
+  /* Certificate Image */
+  .certificate-image img {
+    width: 100%;
+    height: 200px;
+    /* object-fit: cover; */
+    /* border-radius: 5px; */
+    /* border: 2px solid #08D665; */
+  }
+  
+  /* Certificate Details */
+  .certificate-details {
+    /* text-align: center; */
+    color: white;
+    margin-top: 24px;
+  }
+  
+  .certificate-details h3 {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+  .certificate-details p {
+    font-size: 14px;
+    color: #ccc; /* Light Gray */
+    margin-bottom: 10px;
+  }
+  
+  /* Certificate Actions (Buttons) */
+  .certificate-actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 16px;
+  }
+  .certificate-actions a {
+    text-decoration: none;
+  }
+  
+  .certificate-actions button {
+    background: #08D665;
+    color: white;
+    /* font-weight: bold; */
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    gap: 5px;
+    margin-top: 20px;
+    transition: 0.3s;
+  }
+  
+  .certificate-actions button:hover {
+    background: white;
+    color: #08D665;
+  }
+  

@@ -1,0 +1,144 @@
+/* General Styles */
+/* About Me Heading */
+.Amain{
+    padding-top: 60px;
+    background-color: #0e0d0d;
+}
+.About {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: #08D665; /* Green color */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  /* Underline effect */
+  .About::after {
+    content: "";
+    width: 80px;
+    height: 5px;
+    background-color: #08D665;
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    transform: translateX(-50%);
+    border-radius: 5px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .About {
+      font-size: 45px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .About {
+      font-size: 35px;
+    }
+  }
+  
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0e0d0d;
+    color: white;
+    padding: 10px;
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  /* Image Section */
+  .image-container {
+    width: 100%;
+    max-width: 390px;
+    margin-bottom: 20px;
+  }
+  
+  .image-wrapper {
+    position: relative;
+    border: 8px solid #08D665;
+    padding: 10px;
+  }
+  
+  .profile-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* Text Section */
+  .text-container {
+    max-width: 700px;
+    padding-left: 30px;
+  }
+  
+  .title {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  
+  .highlight {
+    color: green;
+  }
+  
+  .description {
+    font-family: system-ui;
+    color: lightgray;
+    margin-bottom: 20px;
+  }
+  
+  /* Contact Info */
+  .info p {
+    font-family: system-ui;
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  .info span {
+    font-weight: bold;
+  }
+  
+  /* Button */
+  .download-btn {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .download-btn:hover {
+    background-color: darkgreen;
+  }
+  
+  /* Responsive Design */
+  @media (min-width: 768px) {
+    .about-container {
+      flex-direction: row;
+      text-align: left;
+      justify-content: center;
+      gap: 40px;
+    }
+    
+    .image-container {
+      margin-bottom: 0;
+    }
+  }
+  @media screen and (max-width:768px){
+    .text-container{
+        padding-left: 0px;
+    }
+    .info p{
+        padding: 0px;
+    }
+  }
+  

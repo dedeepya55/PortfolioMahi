@@ -288,7 +288,8 @@
   /* Extra Small Screens */
   @media (max-width: 426px) {
        .header-container{
-           height:80vh;
+           border:2px solid red;
+           min-height:80vh;
        }
     .title {
       font-size: 40px;

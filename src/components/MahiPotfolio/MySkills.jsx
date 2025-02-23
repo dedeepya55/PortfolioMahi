@@ -5,7 +5,6 @@ import image2 from "../../../public/images/Java-removebg-preview.png";
 import image3 from "../../../public/images/html-removebg-preview.png";
 import image4 from "../../../public/images/DBMS-removebg-preview.png";
 import image5 from "../../../public/images/mongoDBIcon-removebg-preview.png";
-
 const MySkills = () => {
   const skills = [
     {

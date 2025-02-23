@@ -1,6 +1,11 @@
 import React from "react";
 import "./MySkills.css";
 import image1 from "../../../public/images/ReactIcon-removebg-preview.png";
+import image2 from "../../../public/images/Java-removebg-preview.png";
+import image3 from "../../../public/images/html-removebg-preview.png";
+import image4 from "../../../public/images/DBMS-removebg-preview.png";
+import image5 from "../../../public/images/mongoDBIcon-removebg-preview.png";
+
 const MySkills = () => {
   const skills = [
     {
@@ -10,31 +15,31 @@ const MySkills = () => {
         "React Native is a framework for building mobile applications using JavaScript and React. It allows developers to create cross-platform apps with a single codebase, offering a native-like experience by rendering UI components using native APIs.",
     },
     {
-      image: "../../../public/images/ReactIcon-removebg-preview.png",
+      image: image1,
       Skill: "React",
       Skilldes:
         "React is a JavaScript library for building dynamic user interfaces. It enables efficient UI updates with a component-based structure, virtual DOM for performance, and state management for interactive applications.",
     },
     {
-      image: "../../../public/images/Java-removebg-preview.png",
+      image:image2,
       Skill: "Java",
       Skilldes:
         "Java is a versatile, object-oriented programming language known for its platform independence, robustness, and scalability. It is widely used for web development, mobile apps, enterprise applications, and backend systems.",
     },
     {
-      image: "../../../public/images/html-removebg-preview.png",
+      image: image3,
       Skill: "HTML & CSS & JS",
       Skilldes:
         "HTML structures the webpage, CSS styles it for a visually appealing design, and JavaScript adds interactivity to enhance user experience.",
     },
     {
-      image: "../../../public/images/DBMS-removebg-preview.png",
+      image: image4,
       Skill: "DBMS",
       Skilldes:
         "DBMS (Database Management System) is software that manages, organizes, and retrieves data efficiently. It ensures data integrity, security, and scalability, supporting various models like relational (SQL) and NoSQL for structured and unstructured data storage.",
     },
     {
-      image: "../../../public/images/mongoDBIcon-removebg-preview.png",
+      image: image5,
       Skill: "MongoDB",
       Skilldes:
         "MongoDB is a NoSQL database that stores data in a flexible, JSON-like format, making it highly scalable and efficient for handling large datasets. It supports powerful querying, indexing, and real-time analytics, making it ideal for modern applications.",

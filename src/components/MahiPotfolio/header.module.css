@@ -46,6 +46,7 @@ body {
   font-size: 30px;
   color:#08D665;
   font-weight: bold;
+  border:1px solid red;
 }
 
 .listelements {
@@ -131,7 +132,6 @@ body {
     position: absolute;
     right: 20px;
     z-index: 99999;
-    border:1px solid red;
   }
   .firstheadersub .listelements {
     display: none;

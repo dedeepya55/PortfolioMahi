@@ -238,7 +238,8 @@
   
     .head2_1 {
       display: flex;
-      flex-direction: column;
+      flex-direction: columnn;
+        flex-wrap:reverse;
       gap: 20px;
     }
   
@@ -280,7 +281,7 @@
     }
   }
   @media (max-width:768px) {
-    .triangle,.circle,.circle2{
+    .triangle,.circle,.circle2,.triangle3,.triangle2{
       display: none;
   
     }

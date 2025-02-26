@@ -141,5 +141,6 @@ body {
   }
   .firstheadersub:nth-child(1){
     padding-right: 400px;
+    border:1px solid red;
   }
 }

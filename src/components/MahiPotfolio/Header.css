@@ -62,8 +62,8 @@
     justify-content: center;
     color: white;
     border-bottom: 1px solid #333;
-      flex-wrap:reverse;
-      border:2px solid red;
+      flex-wrap:wrap-reverse;
+/*       border:2px solid red; */
   }
   
   /* Geometric Shapes */
@@ -241,7 +241,7 @@
     .head2_1 {
       display: flex;
       flex-direction: columnn;
-        flex-wrap:reverse;
+        flex-wrap:wrap-reverse;
       gap: 20px;
     }
   

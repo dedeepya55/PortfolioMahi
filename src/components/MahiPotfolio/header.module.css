@@ -34,7 +34,7 @@ body {
   align-items: center;
 }
 .firstheadersub:nth-child(1){
-  padding-right: 350px;
+/*   padding-right: 380px; */
   /* border:2px solid red; */
 }
 @media (max-width:768px) {
@@ -46,7 +46,7 @@ body {
   font-size: 30px;
   color:#08D665;
   font-weight: bold;
-  border:1px solid red;
+/*   border:1px solid red; */
 }
 
 .listelements {

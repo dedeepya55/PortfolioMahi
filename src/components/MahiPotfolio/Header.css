@@ -159,6 +159,8 @@
     max-width: 1200px;
     z-index: 1;
       flex-wrap:wrap-reverse;
+       flex-direction: column;
+      text-align: center;
   }
   
   /* Text Section */
@@ -241,7 +243,7 @@
     .head2_1 {
       display: flex;
       flex-direction: columnn;
-        flex-wrap:wrap-reverse;
+/*         flex-wrap:wrap-reverse; */
       gap: 20px;
     }
   
@@ -256,10 +258,7 @@
     }
   
     /* Responsive Header Content */
-    .header-content {
-      flex-direction: column;
-      text-align: center;
-    }
+   
   
     .text-section {
       max-width: 100%;

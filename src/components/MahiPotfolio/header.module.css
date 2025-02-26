@@ -30,7 +30,7 @@ body {
   height: 100%;
   display: flex;
   justify-content: center;
-  /* border: 1px solid red; */
+  border: 1px solid red;
   align-items: center;
 }
 .firstheadersub:nth-child(1){

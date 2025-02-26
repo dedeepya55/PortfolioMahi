@@ -34,7 +34,7 @@ body {
   align-items: center;
 }
 .firstheadersub:nth-child(1){
-/*   padding-right: 380px; */
+  padding-right: 380px;
   /* border:2px solid red; */
 }
 @media (max-width:768px) {
@@ -138,5 +138,8 @@ body {
   }
   .list2elements {
     display: block;
+  }
+  .firstheadersub:nth-child(1){
+    padding-right: 310px;
   }
 }

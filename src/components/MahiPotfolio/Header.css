@@ -62,7 +62,6 @@
     justify-content: center;
     color: white;
     border-bottom: 1px solid #333;
-      flex-wrap:wrap-reverse;
 /*       border:2px solid red; */
   }
   
@@ -159,6 +158,7 @@
     width: 80%;
     max-width: 1200px;
     z-index: 1;
+      flex-wrap:wrap-reverse;
   }
   
   /* Text Section */

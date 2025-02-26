@@ -62,6 +62,8 @@
     justify-content: center;
     color: white;
     border-bottom: 1px solid #333;
+      flex-wrap:reverse;
+      border:2px solid red;
   }
   
   /* Geometric Shapes */

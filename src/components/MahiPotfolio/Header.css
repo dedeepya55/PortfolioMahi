@@ -217,7 +217,7 @@
       position: relative;
     }
   .header-content {
-      flex-direction: column-reverse;
+      flex-direction: column;
           }
     /* Mobile Menu */
     .head2 {
@@ -268,7 +268,8 @@
   
     .image-section .profile-image {
       width: 300px;
-        padding-bottom:30px;
+        margin-top:10px;
+/*         padding-top:30px; */
 /*         border:2px solid red; */
     }
   

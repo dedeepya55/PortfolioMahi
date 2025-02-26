@@ -266,6 +266,7 @@
   
     .image-section .profile-image {
       width: 300px;
+        padding-bottom:30px;
     }
   
     /* Responsive Shapes */

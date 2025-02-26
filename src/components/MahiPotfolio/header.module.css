@@ -30,7 +30,7 @@ body {
   height: 100%;
   display: flex;
   justify-content: center;
-  border: 1px solid red;
+/*   border: 1px solid red; */
   align-items: center;
 }
 .firstheadersub:nth-child(1){
@@ -131,6 +131,7 @@ body {
     position: absolute;
     right: 20px;
     z-index: 99999;
+    border:1px solid red;
   }
   .firstheadersub .listelements {
     display: none;
